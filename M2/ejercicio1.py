@@ -6,7 +6,10 @@
 
 ##################################################################################################
 
+# Solicito el ingreso de Filas y lo convierto a entero
 filas = int(input("Ingresa la cantidad de Filas: "))
+
+# Solicito el ingreso de Columnas y lo convierto a entero
 columnas = int(input("Ingresa la cantidad de Columnas: "))
 
 # Hago un ciclo for para imprimir la cantidad de filas indicadas
