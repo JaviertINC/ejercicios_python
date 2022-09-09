@@ -19,7 +19,7 @@ bisiestos = 0
 
 # Creo un ciclo entre el año de nacimiento y el deceso
 for i in range(año_nacimiento, año_deceso):
-    # Valido si el año (i) es divisible por 4, y si no es divisible por 100 o si es divisible por 400
+    # Valido si el año (i) es divisible por 4, y si no es divisible por 100 (siglos) o si es divisible por 400 (siglos divisibles por 400)
     if(i % 4 == 0 and i % 100 != 0 or i % 400 == 0):
         # Agrego 1 al contador de años bisiestos cada vez que se cumple con la condicional de arriba
         bisiestos = bisiestos + 1
