@@ -14,7 +14,7 @@ for i in range(20):
     num = int(input('Ingresa un número: '))
 
     #Verifico si el número ingresado es diferente de cero
-    if(int(num) != 0):
+    if(num != 0):
         # Almaceno el número ingresado en la lista
         lista[i] = num
     else: # Si el número ingresado es cero

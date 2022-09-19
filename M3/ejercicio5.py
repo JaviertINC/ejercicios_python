@@ -12,19 +12,20 @@ while True:
     # Intento ejecutar el código
     try:
         # Solicito el ingreso de un número y lo convierto a entero
-        num = int(input('Ingresa el número a sumar: '))
+        num = input('Ingresa el número a sumar: ')
         
         # Valido si num no se ingresó en blanco
         if(num != ''):
-            # Sumo el total con el numero ingresado
-            suma = suma + num
+            # Sumo el total con el numero ingresado convertido a entero
+            suma = suma + int(num)
             # Imprimo la suma total
             print('Suma: %s' % suma)
-        else: # Si se ingresó en blanco, termino el ciclo
+        else: # Si se ingresó en blanco
+            # Muestro el total sumado
+            print('Total: %s' % suma)
+            # Y termino el ciclo
             break
     # Si el intento falla por ingreso de un valor no numerico
     except ValueError:
         # Muestro error e indico que debe ingresar solo números
         print("[Error] Solo debes ingresar números")
-
-    

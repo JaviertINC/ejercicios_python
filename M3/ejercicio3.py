@@ -21,6 +21,9 @@ puntaje_total = 0
 # Solicito la palabra para jugar
 palabra = input('Ingresa una palabra: ')
 
+# Convierto la palabra en mayúsculas
+palabra = palabra.upper()
+
 # Creo un ciclo que recorre la palabra
 for i in range(len(palabra)):
     # Preparo la variable puntaje para asignar el puntaje de cada letra
